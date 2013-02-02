@@ -97,3 +97,11 @@ Write 0xff into I2C register 0x00 at address 0x1a
 ````bash
 $ i2cset -y 0 0x1a 0x00 0xff
 ````
+
+## Schematics
+
+![schematocs](https://raw.github.com/embedded-chaos/raspberry2c/master/schematics.png)
+
+### Raspberry GPIO Pins
+
+see http://elinux.org/RPi_Low-level_peripherals#General_Purpose_Input.2FOutput_.28GPIO.29
