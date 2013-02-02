@@ -23,4 +23,4 @@
 *.lst
 *.map
 *.sym
-
+*.elf
