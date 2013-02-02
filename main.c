@@ -29,9 +29,12 @@ int main(void) {
     DDRD |= (1 << DDD0);
     PORTD |= (1 << PD0);
 
+    /* Initialize I2C slave */
+    i2c_slave_init(0x20);
+
     /* Our loop */
     while (1) {
-        if (i2c_buffer[0]!=0) {
+        if (i2c_buffer[0x00]!=0) {
             PORTD &= ~(1 << PD0);
         }
     }
