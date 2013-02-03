@@ -1,8 +1,33 @@
 # raspberry2c
 
-C-Libraries for I2C communication between an ATTiny2313 and a Raspberry PI.
+Software implementation for I2C communication between AVR microcontrollers and a Raspberry PI.
 
 ![raspberry2c](https://raw.github.com/embedded-chaos/raspberry2c/master/assembly.jpg)
+
+## Supported MCUs
+
+The I2C software implementation has definitions for the following MCUs:
+
+- ATTiny2313
+- ATTiny24
+- ATTiny24A
+- ATTiny25
+- ATTiny26
+- ATTiny261
+- ATTiny44
+- ATTiny44A
+- ATTiny45
+- ATTiny461
+- ATTiny84
+- ATTiny861
+- ATMega165
+- ATMega169
+- ATMega325
+- ATMega3250
+- ATMega329
+- ATMega3290
+- ATMega645
+- ATMega6450
 
 ## Prepare the Raspberry PI for I2C communication
 
