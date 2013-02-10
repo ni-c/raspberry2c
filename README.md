@@ -125,7 +125,7 @@ $ i2cset -y 0 0x1a 0x00 0xff
 
 ## Schematics
 
-![schematocs](https://raw.github.com/embedded-chaos/raspberry2c/master/schematics.png)
+![schematics](https://raw.github.com/ni-c/raspberry2c/master/schematics.png)
 
 ### Raspberry GPIO Pins
 
