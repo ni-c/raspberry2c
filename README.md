@@ -2,7 +2,7 @@
 
 Software implementation for I2C communication between AVR microcontrollers and a Raspberry PI.
 
-![raspberry2c](https://raw.github.com/embedded-chaos/raspberry2c/master/assembly.jpg)
+![raspberry2c](https://raw.github.com/ni-c/raspberry2c/master/assembly.jpg)
 
 ## Supported MCUs
 
